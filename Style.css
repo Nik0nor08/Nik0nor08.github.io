@@ -77,3 +77,12 @@ h1 {
 
 
 
+@media (max-width: 600px) {
+    .topnav a {
+        font-size: 18px;
+        padding: 10px;
+    }
+    main {
+        padding: 20px 10px;
+    }
+}
