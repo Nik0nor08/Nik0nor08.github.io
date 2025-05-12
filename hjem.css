@@ -83,3 +83,18 @@ h1 {
     max-width: 100%;
     max-height: calc(100vh - 150px); /* Ensure it fits within the viewport */
 }
+
+@media (max-width: 600px) {
+    .topnav a {
+      font-size: 18px;
+      padding: 10px;
+    }
+    main {
+      padding: 1rem;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+    }
+}

@@ -98,3 +98,15 @@ iframe {
     margin-top: 40px;
   }
   
+  @media (max-width: 600px) {
+    .topnav a {
+      font-size: 18px;
+      padding: 10px;
+    }
+    main {
+      padding: 1rem;
+    }
+    button {
+      width: 100%;
+    }
+  }
